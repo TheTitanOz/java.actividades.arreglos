@@ -8,7 +8,6 @@ public class Main {
 	public static void main(String[] args) {
 		
 		//Cree un arreglo de números aleatorios entre 0 y 100, sin repetir los números y que el tamaño máximo del arreglo sea aleatorio.
-		
 		Random rand = new Random();
 		ArrayList<Integer> numerosList = new ArrayList<Integer>();
 		
@@ -37,8 +36,7 @@ public class Main {
 		for(int i=0; i<numerosList.size(); i+=1) {
 			System.out.print(", " +numerosList.get(i));
 		}
-		
-		
+
 	}
 
 }
