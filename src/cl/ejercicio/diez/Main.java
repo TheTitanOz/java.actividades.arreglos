@@ -10,14 +10,12 @@ public class Main {
 		ArrayList<Dia>diaslista= new ArrayList<Dia>();
 
 		Scanner ingresoPantalla = new Scanner(System.in);
-		//Scanner texto = new Scanner(System.in);
 
 		boolean salir = false;
 		int opcion;
 
-		//while(!salir){
 		do {
-			System.out.println("[1] agrege espacio");
+			System.out.println("[1] agregue espacio");
 			System.out.println("[2] tareas realizadas");
 	
 			try {
